@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>799</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>220</y>
+      <width>281</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Tutorial</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>220</y>
+      <width>281</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Let's Begin</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>20</y>
+      <width>531</width>
+      <height>78</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Welcome to the ProQinase Cell Line Explorer. Use this tool to discover novel information for targeting cancer.  </string>
+    </property>
+   </widget>
+   <widget class="QStackedWidget" name="stackedWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>0</y>
+      <width>811</width>
+      <height>591</height>
+     </rect>
+    </property>
+    <widget class="QWidget" name="page"/>
+    <widget class="QWidget" name="page_2"/>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>799</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuHome">
+    <property name="title">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuProQinase_Cell_Lines">
+    <property name="title">
+     <string>Explorer</string>
+    </property>
+    <addaction name="actionExplorer"/>
+    <addaction name="actionSaved"/>
+    <addaction name="actionExport"/>
+    <addaction name="actionPathway_Analysis"/>
+   </widget>
+   <widget class="QMenu" name="menuReference_Cell_Lines">
+    <property name="title">
+     <string>Saved</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuContact">
+    <property name="title">
+     <string>Contact</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuExport">
+    <property name="title">
+     <string>Export</string>
+    </property>
+   </widget>
+   <addaction name="menuHome"/>
+   <addaction name="menuProQinase_Cell_Lines"/>
+   <addaction name="menuReference_Cell_Lines"/>
+   <addaction name="menuExport"/>
+   <addaction name="menuContact"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionA">
+   <property name="text">
+    <string>A</string>
+   </property>
+  </action>
+  <action name="actionExplorer">
+   <property name="text">
+    <string>ProQinase Cell Lines</string>
+   </property>
+  </action>
+  <action name="actionSaved">
+   <property name="text">
+    <string>Reference Cell Lines</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>Pharmacological Data</string>
+   </property>
+  </action>
+  <action name="actionExplorer_2">
+   <property name="text">
+    <string>Explorer</string>
+   </property>
+  </action>
+  <action name="actionSaved_2">
+   <property name="text">
+    <string>Saved</string>
+   </property>
+  </action>
+  <action name="actionExport_2">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionExplorer_3">
+   <property name="text">
+    <string>Explorer</string>
+   </property>
+  </action>
+  <action name="actionSaved_3">
+   <property name="text">
+    <string>Saved</string>
+   </property>
+  </action>
+  <action name="actionExport_3">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionExplorer_4">
+   <property name="text">
+    <string>Explorer</string>
+   </property>
+  </action>
+  <action name="actionSaved_4">
+   <property name="text">
+    <string>Saved</string>
+   </property>
+  </action>
+  <action name="actionExport_4">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionPathway_Analysis">
+   <property name="text">
+    <string>Pathway Analysis</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
